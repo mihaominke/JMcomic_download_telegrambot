@@ -1,0 +1,21 @@
+version: '2.0'
+
+dir_rule:
+  base_dir: /app/books
+  rule: Bd_Aid
+
+client:
+  domain:
+    - www.cdnhth.club
+    - www.cdngwc.cc
+    - www.cdnhth.net
+    - www.cdnbea.net
+    - www.cdn-mspjmapiproxy.xyz
+
+download:
+  cache: true
+  image:
+    decode: true
+    suffix: .jpg
+  threading:
+    batch_count: 45

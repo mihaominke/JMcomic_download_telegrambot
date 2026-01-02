@@ -1,0 +1,9 @@
+python-telegram-bot==13.15
+jmcomic
+pyyaml
+aiohttp
+img2pdf
+pillow
+requests
+lxml
+beautifulsoup4
